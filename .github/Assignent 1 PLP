@@ -1,0 +1,17 @@
+firstNo = float(input("Enter the first number: "))
+SecNo = float(input("Enter the Second number: "))
+operation = input("Enter the operation: ")
+
+if operation == "+":
+    result = firstNo + SecNo
+    print(result)
+elif operation == "-":
+    result = firstNo - SecNo
+    print(result)
+elif operation == '/':
+    result = firstNo / SecNo
+    print(result)
+elif operation == '*':
+    result = firstNo * SecNo
+    print(result)
+else: print("invalid operation")
